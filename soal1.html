@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Arkademi Batch 11 - Soal 1</title>
+    <script>
+        let Biodata = function (name, age, address, hobbies, is_married, list_school, skills, interest) {
+            return {
+                name: name,
+                age: age,
+                address: address,
+                hobbies: hobbies,
+                is_married: is_married,
+                list_school: list_school,
+                skills: skills,
+                interest_in_coding: interest
+            };
+        }
+
+        console.log(JSON.stringify(Biodata(
+            "Muhamad Hasbi Alfaridzi",
+            20,
+            "Perumahan BPA Blok B no 14/15 rt 04/01 desa Bojong Sempu Kecamatan Parung,Bogor Jawa Barat",
+            ["Singing", "Watching Movie", "Coding", "Gaming", "Writing", "Travelling"],
+            false,
+            [{
+                    name: "Politeknik LP3I Jakarta",
+                    year_in: 2016,
+                    year_out: 2019,
+                    major: "Informatika Komputer"
+                },
+                {
+                    name: "SMAN 1 Ciseeng",
+                    year_in: 2016,
+                    year_out: 2013,
+                    major: null
+                }
+            ],
+            [{
+                    skill_name: "PHP",
+                    level: "Advanced"
+                },
+                {
+                    skill_name: "Javascript",
+                    level: "Advanced"
+                },
+                {
+                    skill_name: "Codeigniter",
+                    level: "Advanced"
+                },
+                {
+                    skill_name: "Bootstrap",
+                    level: "Advanced"
+                },
+                {
+                    skill_name: "Computer Application",
+                    level: "Advanced"
+                }
+
+            ],
+            true
+        )));
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

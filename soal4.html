@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script>
+        // for (i = 0; i < 100;) {
+        //     console.log((++i % 3 ? '' : 'se') + (i % 5 ? '' : 'to') || i)
+        // }
+
+        // i = 1 + i
+
+        var buyNoodle = function (tgl, uang) {
+            mie = 8000;
+            beli = Math.floor(uang / mie);
+            if (tgl > 31) {
+                console.log("Tanggal yang anda masukkan salah");
+            } else {
+                if (uang < mie) {
+                    console.log("Uang anda tidak cukup untuk membeli mie");
+                } else {
+                    if (beli < 3) {
+                        return beli;
+                    } else {
+                        if (tgl % 2 == 1) {
+                            if (tgl % 5 == 0) {
+                                bonus = beli + Math.floor(beli / 3);
+                                if (bonus % 2 == 0) {
+                                    bonus = bonus * 10;
+                                    return bonus;
+                                } else {
+                                    bonus = bonus * 5;
+                                    return bonus;
+                                }
+                            } else {
+                                bonus = beli + Math.floor(beli / 3);
+                                return bonus;
+                            }
+                        } else {
+                            bonus = beli + Math.floor(beli / 4);
+                            return bonus;
+                        }
+
+                    }
+
+
+                }
+            }
+
+        }
+    </script>
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>

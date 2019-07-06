@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Arkademi Batch 11 - Soal 2</title>
+    <script>
+        var email_validation = function (email) {
+            return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+        }
+
+        var phone_validation = function (phone) {
+            return /^[\+]?[62]{2}?[0-9]{8,15}$/im.test(phone);
+        }
+
+        var password_validation = function (password) {
+            return /^[a-zA-Z0-9!@#$%^&*]{8,16}$/.test(password);
+        }
+
+        var username_validation = function (username) {
+            return /^[0-9]?[a-zA-Z0-9]{5,9}$/.test(username);
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
