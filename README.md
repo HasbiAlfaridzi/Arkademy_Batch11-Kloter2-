@@ -17,3 +17,5 @@ no.2 jalankan function
 no.3 Jalankan function operasi(bilangan);//hanya mencari operasi awal
 no.4 Jalankan function buyNoodle(tgl,uang);
 no.5 Jalankan function nilaiNama(nama); //tidak boleh pakai spasi
+
+*Yang terhormat kakak dari Arkademy mohon maaf agak telat dikarenakan jaringan wifi dirumah sedang error jadi mengganggu proses upload ke github
