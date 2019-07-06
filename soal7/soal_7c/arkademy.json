@@ -1,0 +1,22 @@
+[
+{"type":"header","version":"4.8.5","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"arkademy"},
+{"type":"table","name":"hobi","database":"arkademy","data":
+[
+{"id":"1","hobby":"Koleksi Tas","id_category":"1"},
+{"id":"2","hobby":"InstaStory","id_category":"2"}
+]
+}
+,{"type":"table","name":"kategori","database":"arkademy","data":
+[
+{"id":"1","category":"Shopping"},
+{"id":"2","category":"Media Sosial"}
+]
+}
+,{"type":"table","name":"nama","database":"arkademy","data":
+[
+{"id":"10","name":"Hasbi Alfaridzi","id_hobby":"2","id_category":"2"},
+{"id":"11","name":"Aldi","id_hobby":"1","id_category":"1"}
+]
+}
+]
